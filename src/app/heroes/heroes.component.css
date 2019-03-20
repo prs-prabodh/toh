@@ -1,0 +1,10 @@
+.selected{
+    background-color: lightblue;
+}
+.lists{
+    border: 1px solid black;
+    display: block;
+}
+.lists:hover{
+    cursor: pointer;
+}

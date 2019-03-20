@@ -1,0 +1,6 @@
+<h1>Tour of Heroes</h1>
+<ul>
+  <span><li class = 'lists' *ngFor='let hero of heroes' [class.selected] = 'hero == selectedHero' (click) = 'clicked(hero)'>{{ hero.name }}</li></span>
+</ul>
+
+<app-heroes-details [selectedHero] = 'selectedHero'></app-heroes-details>
